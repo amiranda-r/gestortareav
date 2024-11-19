@@ -19,7 +19,7 @@
                     <button @click="toggleTaskCompletion(task)" class="btn icon-btn complete-btn">
                         <i :class= "task.completed ? 'bi bi-check-square-fill' : 'bi bi-check-square'"></i>
                     </button>
-                    <button @click="deleteTask(task)" class="btn delete-btn"><i class="bi bi-x-square"></i></button>
+                    <button @click="deletedTask(task)" class="btn delete-btn"><i class="bi bi-x-square"></i></button>
                 </div>
             </div>
         </div>
